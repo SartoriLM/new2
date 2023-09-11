@@ -1,0 +1,283 @@
+    1  sudo <command>
+    3  ls -F
+    4  history
+    9  ls -F*.dll
+   10  cd ~/
+   12  ls -aF
+   13  ls -a
+   14  /bin
+   15  pwd
+   16  cd home
+   17  cd /home
+   18  cd ~
+   19  mail -s 'voce é fera''Leticia Sartori leticia.m.sartori@usp.br'
+   20  sudo apt install mailutils
+   21  wc
+   22  cd /bin/
+   23  ls
+   24  ls -l
+   25  ls -lt
+   26  ls -lt /head
+   27  ls -lt | head
+   28  ls -l | head
+   29  ls -l | tail
+   30  date ; sleep 2 ; date
+   31  cd ~
+   32  curl -O https://raw.githubusercontent.com/labbces/cen0336/master/files/cuffdiff.txt
+   33  cat blablabla.txt
+   34  cat blablabla.txt 2> errors.txt
+   35  ls errors.txt
+   36  ls -F errors.txt
+   37  cd errors.txt
+   38  # Primeiro vamos imprimir na tela do terminal
+   39  cat fav_chr_cuffdiff.txt blablabla.file
+   40  # Redirecionando em dois arquivos, STDOUT no arquivo out.txt, e STDERR no arquivo err.txt 
+   41  cat fav_chr_cuffdiff.txt blablabla.file 1> out.txt 2> err.txt
+   42  # O seguinte comando faz a mesma coisa, vê a diferença?
+   43  cat fav_chr_cuffdiff.txt blablabla.file > out.txt 2> err.txt
+   44  cd home
+   45  cd /home
+   46  cd ~/
+   47  ls -F
+   48  pwd
+   49  cd ..
+   50  cd ~/
+   51  cd ..
+   52  ls -F
+   53  cd ..
+   54  cd ~/
+   55  mkdir problemsets
+   56  pwd problemsets
+   57  wget https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa > problemsets
+   58  wc problemsets
+   59  sequences.nt.fa <  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   60  wc /home/leticia
+   61  wc ~
+   62  wc problemsets
+   63  cp  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa > problemsets
+   64  wc problemsets
+   65  cp  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   66  cp --help
+   67  cp -a  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa > problemsets
+   68  wc  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   69  wc problemsets
+   70  wc < problemsets
+   71  wc <  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   72  mkdir problemsets
+   73  problemsets <  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   74  cp -a  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa > problemsets
+   75  curl -0  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   76  wget  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   77  sequences.nt.fa.1 > problemsets
+   78  pwd
+   79  ls -F
+   80  wc sequences.nt.fa
+   81  wc < sequences.nt.fa
+   82  man wc
+   83  cd problemsets
+   84  cd ~
+   85  ls -F
+   86  wc sequences.nt.fa
+   87  curl -0  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   88  cp  sequences.nt.fa > problemsets
+   89  pwd  sequences.nt.fa
+   90  cp -h
+   91  cp --help
+   92  cp -t  sequences.nt.fa > problemsets
+   93  cp -at sequences.nt.fa > probemsets
+   94  cp -a sequences.nt.fa > problemsets
+   95  cd problemsets
+   96  cp -a sequences.nt.fa
+   97  curl -0  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+   98  wc sequences.nt.fa
+   99  ls
+  100  ls -F
+  101  curl -0  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+  102  ls
+  103  wget  https://raw.githubusercontent.com/labbces/cen0336/master/files/sequences.nt.fa
+  104  ls
+  105  wc sequences.nt.fa
+  106  cd ~
+  107  mkdir problemsets
+  108  man wc
+  109  wc  sequences.nt.fa
+  110  wc -l sequences.nt.fa
+  111  wc -w sequences.nt.fa
+  112  wc sequences.nt.fa
+  113  cd problemsets
+  114  wc -w sequences.nt.fa
+  115  wl -w sequences.nt.fa
+  116  wc -l sequences.nt.fa
+  117  wc -c sequences.nt.fa
+  118  head sequences.nt.fa
+  119  head 1 sequences.nt.fa
+  120  man head
+  121  head -1 sequences.nt.fa
+  122  tail -3 sequences.nt.fa
+  123  grep fasta sequences.nt.fa
+  124  man grep
+  125  grep 'fasta' sequences.nt.fa
+  126  grep 'fasta' sequences.nt.fa | wc
+  127  grep >fasta sequences.nt.fa
+  128  man mv
+  129  mv sequences.nt.fa cancer_genes.fasta
+  130  ls
+  131  head cancer_genes.fasta
+  132  wget https://raw.githubusercontent.com/labbces/cen0336/master/files/cuffdiff.txt
+  133  head cuffdiff.txt
+  134  man column
+  135  man sort
+  136  sort --help
+  137  sort -t' ' -k10 cuffdiff.txt
+  138  sort -t' ' -k10,10 cuffdiff.txt
+  139  head cuffdiff.txt
+  140  sort -t' ' -k10,10 -r cuffdiff.txt
+  141  sort -t' ' -k10,10 -r cuffdiff.txt > sorted.cuffdiff.out
+  142  ls sorted.cuffdiff.out
+  143  sorted.cuffdiff.out
+  144  less sorted.cuffdiff.out
+  145  head --help
+  146  sort -t' ' -k10,10 -r cuffdiff.txt | head -n100 > top100.sorted.cuffdiff.out
+  147  less top100.sorted.cuffdiff.out
+  148  # Classificar o arquivo por 'log2(fold_change)' em ordem decrescente (-r) e usando vírgula como delimitador (-t,)
+  149  # Em seguida, use o comando head para obter as primeiras 100 linhas e o comando cut para pegar apenas a primeira coluna.
+  150  sort -t' ' -k10,10 -r cuffdiff.txt | head -n 100 | cut -d' ' -f1 > differentially.expressed.genes.txt
+  151  cat differentially.expressed.genes.txt
+  152  sort -t' ' -k10,10 -r cuffdiff.txt | head -n 100 | cut -d' ' -f1 > differentially.expressed.genes.txt
+  153  cat differentially.expressed.genes.txt
+  154  awk -F' ' 'NR > 1 {print $2 " " $0}' cuffdiff.txt | sort -t' ' -k1,1 -nr | head -n 100 | cut -d' ' -f2 > resultado.csv
+  155  cat resultados.csv
+  156  cat resultado.csv
+  157  cut -d ',' -f 1 resultado.csv
+  158* cut -d ',' -f 1 cuffdiff.txtgit commit -m
+  159  cut -d ' ' -f 1 cuffdiff.txt
+  160  nano primeiro_arquivo.txt
+  161  vi primeiro_vi.txt
+  162  cd /home
+  163  cd ~~
+  164  cd ~
+  165  ssh-keygen -t ed25519 -C "leticia.m.sartori@usp.br"
+  166  cat ~/.ssh/id_ed25519.pub
+  167  cd /home
+  168  cat ~/.ssh/id_ed25519.pub
+  169  git clone git@github.com:SartoriLM/Aula2new.git
+  170  sudo apt install git
+  171  git clone git@github.com:SartoriLM/Aula2new.git
+  172  cd ~
+  173  ssh-keygen -t ed25519 -C "leticia.m.sartori@usp.br"
+  174  n
+  175  ssh-keygen -t ed25519 -C "leticia.m.sartori@usp.br"
+  176  cat ~/.ssh/id_ed25519.pub
+  177  git clone git@github.com:SartoriLM/Aula2new.git
+  178  gis status
+  179  git status
+  180  git clone git@github.com:SartoriLM/new2.git
+  181  vi git_exercises.txt
+  182  git add git_exercises.txt
+  183  cd new2
+  184  git add git_exercises.txt
+  185  vi git_exercises.txt
+  186  git add git_exercises.txt
+  187  git commit -m git_exercises.txt
+  188  gi config --global user.email "leticia.m.sartori@usp.br"
+  189  git config --global user.email "leticia.m.sartori@usp.br"
+  190  gir config --global user.name "Leticia"
+  191  git config --global user.name "Leticia"
+  192  git commit -m git_exercises.txt
+  193  git push origin master
+  194  git push
+  195  git status
+  196  git checkout git_exercises.txt
+  197  git clone https://github.com/labbces/cen0336.git
+  198  git commit -m cuffdiff.txt
+  199  cd ~
+  200  cuffdiff.txt > new2
+  201  ls new2
+  202  cp cuffdiff.txt new2/
+  203  ls new2
+  204  ls ~
+  205  cp err.txt errors.txt out.txt sequences.nt.fa sequences.nt.fa.1 new2/
+  206  ls new2
+  207  git commit -m err.txt
+  208  cd new2
+  209  git commit -m err.txt
+  210* git add cuff
+  211  git add cuffdiff.txt err.txt
+  212  git add errors.txt out.txt sequences.nt.fa sequences.nt.fa.1
+  213  git commit -m  cuffdiff.txt err.txt errors.txt out.txt sequences.nt.fa sequences.nt.fa.1
+  214  git push
+  215  cd ~
+  216  ls ~
+  217  vi mysequences.txt
+  218  cd new2
+  219  vi mysequences.txt
+  220  git add mysequences.txt
+  221  git commit -m mysequences.txt
+  222  git push
+  223  mkdir fasta
+  224  cd fasta
+  225  cp mysequences.txt
+  226  cp mysequences.txt fasta
+  227  cd ~
+  228  cp mysequences.txt fasta
+  229  cd new2
+  230  cp mysequences.txt
+  231  cp mysequences.txt fasta
+  232  cd fasta
+  233  ls fasta
+  234  cd new2
+  235  cd ~
+  236  ls fasta
+  237  ls new2
+  238  ls fasta
+  239  cd new2
+  240  ls fasta
+  241  git add fasta
+  242  git commit fasta
+  243  git commit -m fasta
+  244  push fasta
+  245  vi teste
+  246  cp teste fasta
+  247  ls fasta
+  248  git add fasta
+  249  git commit fasta
+  250  git commit -m fasta
+  251  git push
+  252  git rm
+  253  git rm teste
+  254  git rm fasta
+  255  git rm -r fasta
+  256  ls fasta
+  257  checkout fasta
+  258  git pull fasta
+  259  git pull
+  260  ls new2
+  261  cd ~
+  262  ls new2
+  263  vi oops
+  264  git add oops
+  265  git add
+  266  vi oops
+  267  git add oops
+  268  cd new2
+  269  vi oops
+  270  git add oops
+  271  git commit -m oops
+  272  git push
+  273  git rm oops
+  274  git commit -m 
+  275  git commit -m 'removing oops'
+  276  git push
+  277  mkdir fasta
+  278  cp my_sequences.txt fasta
+  279  vi my_sequences.txt
+  280  cp mysequences.txt fasta
+  281  ls fasta
+  282  git add fasta
+  283  git commit -m fasta
+  284  git push
+  285  vi never
+  286  git add never
+  287  git reset never
+  288  cd ~
+  289  history > unixBasics.history.txt
